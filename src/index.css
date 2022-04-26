@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --topbar-height: 60px;
+  --shadow-button: 0 0 8px 0 rgba(17, 22, 26, 0.16),
+    0 4px 8px 0 rgba(17, 22, 26, 0.08), 0 8px 16px 0 rgba(17, 22, 26, 0.08);
+  --shadow-card: 0 0 4px 0 rgba(17, 22, 26, 0.16),
+    0 2px 4px 0 rgba(17, 22, 26, 0.08), 0 4px 8px 0 rgba(17, 22, 26, 0.08);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+}
+
+#wrapper div {
+  width: 100px;
+  height: 200px;
+  background-color: rgba(0,0,255,0.1);
+}
+
+#wrapper{
+    height: 100px;
+  background-color: rgba(255,0,0,0.1);
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fbc2eb;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(251, 194, 235, 1), rgba(166, 193, 238, 1))
+}
+
+.gradient-google-signin {
+  /* fallback for old browsers */
+  background: #EA4335;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ed213a, #93291E);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ed213a, #93291E)
+}
+
+.gradient-fb-signin {
+  /* fallback for old browsers */
+  background: #86A8E7;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #7F7FD5, #86A8E7);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #7F7FD5, #86A8E7)
+}
+
+.aboutsec{
+  width: 100%;
+  border-bottom: 2px solid rgb(155,43,105);
+  padding: 20px;
+  margin: 10px;
+}
